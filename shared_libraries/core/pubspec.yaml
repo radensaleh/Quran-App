@@ -1,4 +1,4 @@
-name: resources
+name: core
 description: A new Flutter package project.
 version: 0.0.1
 publish_to: "none"
@@ -11,7 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_fonts: ^3.0.1
+
+  # Shared libraries
+  dependencies:
+    path: ../dependencies
 
 dev_dependencies:
   flutter_test:
