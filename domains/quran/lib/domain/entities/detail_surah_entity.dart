@@ -62,11 +62,11 @@ class VerseEntity extends Equatable {
   });
 
   final NumberEntity number;
-  final MetaEntity meta;
+  final MetaEntity? meta;
   final TextEntity text;
   final TranslationEntity translation;
   final AudioEntity audio;
-  final VerseTafsirEntity tafsir;
+  final VerseTafsirEntity? tafsir;
 
   @override
   List<Object?> get props => [number, meta, text, translation, audio, tafsir];

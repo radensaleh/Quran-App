@@ -1,52 +1,56 @@
-import 'package:common/utils/error/failure_response.dart';
+import 'package:dependencies/equatable/equatable.dart';
 
 enum ViewState { initial, loading, error, hasData, noData }
 
-extension ViewStateExtention on ViewState {
-  bool get isInitial => this == ViewState.initial;
+extension ViewStateExtension on ViewState {
   bool get isLoading => this == ViewState.loading;
+
+  bool get isInitial => this == ViewState.initial;
+
   bool get isError => this == ViewState.error;
+
   bool get isHasData => this == ViewState.hasData;
+
   bool get isNoData => this == ViewState.noData;
 }
 
-class ViewData<T> {
+// ignore: must_be_immutable
+class ViewData<T> extends Equatable {
   ViewState status;
   T? data;
   String message = "";
-  FailureResponse? failureResponse;
 
-  ViewData({
+  ViewData._({
     required this.status,
     this.data,
     this.message = "",
-    this.failureResponse,
   });
 
-  factory ViewData.initial() {
-    return ViewData(status: ViewState.initial);
-  }
-
-  factory ViewData.loading({required String message}) {
-    return ViewData(status: ViewState.loading, message: message);
-  }
-
   factory ViewData.loaded({T? data}) {
-    return ViewData(status: ViewState.hasData, data: data);
+    return ViewData._(status: ViewState.hasData, data: data);
   }
 
   factory ViewData.error({
-    required FailureResponse? failureResponse,
     required String message,
   }) {
-    return ViewData(
+    return ViewData._(
       status: ViewState.error,
-      failureResponse: failureResponse,
       message: message,
     );
   }
 
-  factory ViewData.noData({required String message}) {
-    return ViewData(status: ViewState.noData, message: message);
+  factory ViewData.loading({required String message}) {
+    return ViewData._(status: ViewState.loading, message: message);
   }
+
+  factory ViewData.initial() {
+    return ViewData._(status: ViewState.initial);
+  }
+
+  factory ViewData.noData({required String message}) {
+    return ViewData._(status: ViewState.noData, message: message);
+  }
+
+  @override
+  List<Object?> get props => [status, message, data];
 }

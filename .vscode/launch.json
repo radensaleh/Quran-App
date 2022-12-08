@@ -1,0 +1,185 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "quran_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "quran_app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "quran_app (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "quran",
+            "cwd": "domains\\quran",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "quran (profile mode)",
+            "cwd": "domains\\quran",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "quran (release mode)",
+            "cwd": "domains\\quran",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "detail_surah",
+            "cwd": "features\\detail_surah",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "detail_surah (profile mode)",
+            "cwd": "features\\detail_surah",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "detail_surah (release mode)",
+            "cwd": "features\\detail_surah",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "home",
+            "cwd": "features\\home",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "home (profile mode)",
+            "cwd": "features\\home",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "home (release mode)",
+            "cwd": "features\\home",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "splash",
+            "cwd": "features\\splash",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "splash (profile mode)",
+            "cwd": "features\\splash",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "splash (release mode)",
+            "cwd": "features\\splash",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "resources",
+            "cwd": "resources\\resources",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "resources (profile mode)",
+            "cwd": "resources\\resources",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "resources (release mode)",
+            "cwd": "resources\\resources",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "common",
+            "cwd": "shared_libraries\\common",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "common (profile mode)",
+            "cwd": "shared_libraries\\common",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "common (release mode)",
+            "cwd": "shared_libraries\\common",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "core",
+            "cwd": "shared_libraries\\core",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "core (profile mode)",
+            "cwd": "shared_libraries\\core",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "core (release mode)",
+            "cwd": "shared_libraries\\core",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "dependencies",
+            "cwd": "shared_libraries\\dependencies",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dependencies (profile mode)",
+            "cwd": "shared_libraries\\dependencies",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "dependencies (release mode)",
+            "cwd": "shared_libraries\\dependencies",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

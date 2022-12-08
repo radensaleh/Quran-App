@@ -18,6 +18,10 @@ dependencies:
   flutter_bloc: ^8.0.1
   dartz: ^0.10.1
   get_it: ^7.1.3
+  show_up_animation: ^2.0.0
+  just_audio: ^0.9.30
+  shared_preferences: ^2.0.11
+  provider: ^6.0.1
 
 dev_dependencies:
   flutter_test:
