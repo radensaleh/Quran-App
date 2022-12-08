@@ -1,0 +1,1 @@
+library detail_surah;

@@ -16,6 +16,10 @@ dependencies:
   dependencies:
     path: ../dependencies
 
+  # Resources
+  resources:
+    path: ../../resources/resources
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
