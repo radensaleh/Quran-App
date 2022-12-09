@@ -17,9 +17,9 @@
 
 ## Banner Design
 <pre>
-<img src="assets/banner/quran_app_dark_theme.png">
+<img src="assets/banner/quran_app_dark_mode.png">
 
-<img src="assets/banner/quran_app_light_theme.png">
+<img src="assets/banner/quran_app_light_mode.png">
 </pre>
 
 ## Quick start
